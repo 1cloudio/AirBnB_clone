@@ -1,77 +1,103 @@
 AirBnB_clone
 
+Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
 
-Airbnb Clone
-Status GitHub Issues GitHub Pull Requests License
+The goal of the project is to deploy on our own server a simple copy of the AirBnB website.
 
-ALX project
-📝 Table of Contents
-About
-Getting Started
-Deployment
-Usage
-Built Using
-Contributing
-Authors
-Acknowledgments
-🧐 About
-This is the first step towards building our first full web application: the AirBnB clone. This is a project that is built with the aim to learn and apply concepts of high level programming and software engineering in general.
+Description of the project
+We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at Holberton.
 
-🏁 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+This project will be a complete a full web application composed by:
 
-Prerequisites
-Python3
+A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging).
+A website (the front-end) that shows the final product to everybody: static and dynamic.
+A database or files that store data (data = objects).
+An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).
+The firs part of the whole project is: AirBnB clone - The console
 
-Installing
-Clone this reposito
+AirBnB clone - The console
+The console This is the first part of this project, it represents the data model.
 
-git clone git@github.com:pelumiolawole/AirBnB_clone.git
-cd AirBnB_clone
+The purpose of this model is to:
+
+Build the data model.
+Perform operations like (create, update, destroy, etc) in the objects via a console.
+Build a powerfull storage system, that will be capable of storing and loading objects to and from a file (JSON file).
+
+How to start using it
+First of all, to use our application you have to clone our repository using the command on your terminal:
+
+git clone https://github.com/1cloudio/AirBnB_clone.git
+
+clone
+
+Once this is done, a folder named AirBnB_clone-master is created, you have to go inside it, using de command cd on your terminal.
+
+cd AirBnB_clone-master
+
+cd
+
+Once you're inside of the AirBnB_clone-master folder, you have to execute the console with the command:
+
 ./console.py
-🔧 Running the tests
-This project uses the python unittest model for automated tests
 
-Run all unit tests
-python3 -m unittest discover tests
+execute
 
-Run a test from a specific file
-python3 -m unittest tests/tespytestt_models/test_base_model.py
+Done this, it will show the console of our application, from here, we can interact with the application data.
 
-🎈 Usage
-You can run the schell (in an interactive or non-interactive mode) to manipulate your models. You can start it from running the console.py file:
+Examples
+Now we are going to show some of the application features.
 
-$ ./console.py
-The following commands are supported:
+help command
+This command shows us the help for the most common actions on the console.
 
-create:
-Creates a new instance of BaseModel, saves it (to the JSON file) and prints the id. Ex:
+On the console type: help help
 
-$ create BaseModel
-show:
-Prints the string representation of an instance based on the class name and id. Ex:
+create
+Creates an instances of a class, usage: create <ClassName>
 
-$ show BaseModel 1234-1234-1234.
-destroy:
-Deletes an instance based on the class name and id (save the change into the JSON file). Ex:
+create
 
-$ destroy BaseModel 1234-1234-1234.
-all:
-Prints all string representation of all instances based or not on the class name. Example to show all instances
+It can also be used as follows: <ClassName>.create
 
-$ all
-Example to show all instances of BaseModel only
+all
+Shows all created instances, usage: all (OPTIONAL)<ClassName>
 
-$ all BaseModel
-update:
-Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). Ex:
+all
 
-$ update BaseModel 1234-1234-1234 email "airbnb@alxholbertonschool.com"
-quit:
-Quit the shell
+It can also be used like this: <ClassName>.all
+
+show
+Shows info about a created instance of a class using id as parameter, usage: show <ClassName> id
+
+show
+
+It can also be used al follows: <ClassName>.show("id") id must be in parenthesis and quoted
+
+destroy
+Destroys a created instance of a class using id as parameter, usage: destroy <ClassName> id
+
+destroy
+
+It can also be used as follows: <ClassName>.destroy("id") id must be in parenthesis and quoted
+
+update
+Updates a created instance of a class using id as parameter as well as the attribute name and the value, usage: update <ClassName> <attribute name> '<attribute value>'
+
+update
+
+It can also be used as follows: <ClassName>.update("id", "attribute name", "attribute value")
+
+count
+Counts the number of instances of a class: usage: count <ClassName>
+
+count
+
+It can also be used like this: <ClassName>.count
 
 ⛏️ Built Using
 Python - Programming language
-✍️ Authors
+
+  ✍️ Authors
 @1cloudio - Nnachi Michael
 @Truhub1 - Oladosu Rukayat
