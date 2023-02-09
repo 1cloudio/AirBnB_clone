@@ -15,7 +15,7 @@ This project will be a complete a full web application composed by:
 <li>A command interpreter to manipulate data without a visual interface, like in a Shell (<i>perfect for development and debugging</i>).</li>
 <li>A website (<i>the front-end</i>) that shows the final product to everybody: <b>static and dynamic</b>.</li>
 <li>A database or files that store data (<b>data = objects</b>).</li>
-<li>An API that provides a communication interface between the front-end and your data (<i>retrieve, create, delete, update them</i>).<li>
+<li>An API that provides a communication interface between the front-end and your data (<i>retrieve, create, delete, update them</i>).</li>
 </ul>
 <br>
 The first part of the whole project is: <b>AirBnB clone - The console</b>
