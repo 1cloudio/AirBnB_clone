@@ -1,10 +1,10 @@
 <h1>AirBnB_clone</h1>
 
 <p>
-<a href="https://www.airbnb.com/">Airbnb</a>. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+<a href="https://www.airbnb.com/">Airbnb</a> is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
 </p>
 
-<p>The goal of the project is to deploy on our own server a simple copy of the AirBnB website.</p>
+<p>The goal of the project is to deploy on our own server a simple copy of the <b>AirBnB website</b>.</p>
 
 <h2>Description of the project</h2>
 We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at <a href="https://www.alxafrica.com
