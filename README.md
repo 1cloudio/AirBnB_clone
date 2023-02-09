@@ -1,20 +1,21 @@
 <h1>AirBnB_clone</h1>
 
 <p>
-Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+<a href="https://www.airbnb.com/">Airbnb</a>. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
 </p>
 
 <p>The goal of the project is to deploy on our own server a simple copy of the AirBnB website.</p>
 
 <h2>Description of the project</h2>
-We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at ALX.
+We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at <a href="https://www.alxafrica.com
+">ALX</a>.
 
 This project will be a complete a full web application composed by:
 <ul>
-A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging).
-A website (the front-end) that shows the final product to everybody: static and dynamic.
-A database or files that store data (data = objects).
-An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).
+<li>A command interpreter to manipulate data without a visual interface, like in a Shell (<i>perfect for development and debugging</i>).</li>
+<li>A website (<i>the front-end</i>) that shows the final product to everybody: <b>static and dynamic</b>.</li>
+<li>A database or files that store data (<b>data = objects</b>).</li>
+<li>An API that provides a communication interface between the front-end and your data (<i>retrieve, create, delete, update them</i>).<li>
 </ul>
 <br>
 The first part of the whole project is: <b>AirBnB clone - The console</b>
@@ -23,85 +24,79 @@ The first part of the whole project is: <b>AirBnB clone - The console</b>
 The console This is the first part of this project, it represents the data model.
 
 The purpose of this model is to:
-
-Build the data model.
-Perform operations like (create, update, destroy, etc) in the objects via a console.
-Build a powerfull storage system, that will be capable of storing and loading objects to and from a file (JSON file).
-
-How to start using it
+<ul>
+<li>Build the data model.</li>
+<li>Perform operations like (<i>create, update, destroy, etc</i>) in the objects via a console.</li>
+<li>Build a powerfull storage system, that will be capable of storing and loading objects to and from a file (<a href="https://www.json.org/json-en.html">JSON file</a>).</li>
+</ul>
+<br>
+<h2>How to start using it</h2>
 First of all, to use our application you have to clone our repository using the command on your terminal:
 
-git clone https://github.com/1cloudio/AirBnB_clone.git
+<code>git clone https://github.com/1cloudio/AirBnB_clone.git</code>
 
-clone
 
 Once this is done, a folder named AirBnB_clone-master is created, you have to go inside it, using de command cd on your terminal.
 
-cd AirBnB_clone-master
+<code>cd AirBnB_clone-master</code>
 
-cd
 
 Once you're inside of the AirBnB_clone-master folder, you have to execute the console with the command:
 
-./console.py
+<code>./console.py</code>
 
-execute
+
 
 Done this, it will show the console of our application, from here, we can interact with the application data.
 
-Examples
+<h2>Examples</h2>
 Now we are going to show some of the application features.
 
-help command
+<h3>help command</h3>
 This command shows us the help for the most common actions on the console.
 
-On the console type: help help
+On the console type: <code>help</code>
 
-create
-Creates an instances of a class, usage: create <ClassName>
+<h3>create</h3>
+Creates an instances of a class, usage: <code>create <ClassName></code>
 
-create
 
-It can also be used as follows: <ClassName>.create
+It can also be used as follows: <code><ClassName>.create</code>
 
-all
-Shows all created instances, usage: all (OPTIONAL)<ClassName>
+<h3>all</h3>
+Shows all created instances, usage: <code>all (OPTIONAL)<ClassName></code>
 
-all
 
-It can also be used like this: <ClassName>.all
 
-show
-Shows info about a created instance of a class using id as parameter, usage: show <ClassName> id
+It can also be used like this: <code><ClassName>.all</code>
 
-show
+<h3>show</h3>
+Shows info about a created instance of a class using id as parameter, usage: <code>show <ClassName> id</code>
 
-It can also be used al follows: <ClassName>.show("id") id must be in parenthesis and quoted
 
-destroy
-Destroys a created instance of a class using id as parameter, usage: destroy <ClassName> id
+It can also be used al follows: <code><ClassName>.show("id")</code> <i>id must be in parenthesis and quoted</i>
 
-destroy
+<h3>destroy</h3>
+Destroys a created instance of a class using id as parameter, usage: <code>destroy <ClassName> id</code>
 
-It can also be used as follows: <ClassName>.destroy("id") id must be in parenthesis and quoted
 
-update
-Updates a created instance of a class using id as parameter as well as the attribute name and the value, usage: update <ClassName> <attribute name> '<attribute value>'
+It can also be used as follows: <code><ClassName>.destroy("id")</code> <i>id must be in parenthesis and quoted</i>
 
-update
+<h3>update</h3>
+Updates a created instance of a class using id as parameter as well as the attribute name and the value, usage: <code>update <ClassName> <attribute name> '<attribute value>'</code>
 
-It can also be used as follows: <ClassName>.update("id", "attribute name", "attribute value")
 
-count
-Counts the number of instances of a class: usage: count <ClassName>
+It can also be used as follows: <code><ClassName>.update("id", "attribute name", "attribute value")</code>
 
-count
+<h3>count</h3>
+Counts the number of instances of a class: usage: <code>count <ClassName></code>
 
-It can also be used like this: <ClassName>.count
 
-⛏️ Built Using
+It can also be used like this: <code><ClassName>.count</code>
+
+<h2>⛏️ Built Using</h2>
 Python - Programming language
 
-  ✍️ Authors
-@1cloudio - Nnachi Michael
-@Truhub1 - Oladosu Rukayat
+<h2>✍️ Authors</h2>
+<ul><li>@1cloudio - Nnachi Michael</li>
+<li>@TRUHUB1 - Oladosu Rukayat</li></ul>
