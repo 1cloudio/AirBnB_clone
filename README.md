@@ -1,7 +1,7 @@
 <h1>AirBnB_clone</h1>
 
 <p>
-<a href="https://www.airbnb.com/">Airbnb</a>, is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+<a href="https://www.airbnb.com/">Airbnb</a>. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
 </p>
 
 <p>The goal of the project is to deploy on our own server a simple copy of the <b>AirBnB website</b>.</p>
@@ -33,9 +33,8 @@ The purpose of this model is to:
 <h2>How to start using it</h2>
 First of all, to use our application you have to clone our repository using the command on your terminal:
 
-<code>git clone <a href="https://github.com/1cloudio/AirBnB_clone.git" onclick="return false;">https://github.com/1cloudio/AirBnB_clone.git</a></code>
 
-<code>git clone https://github.com/1cloudio/AirBnB_clone.git</code>
+<code>git clone <a>https://github.com/1cloudio/AirBnB_clone.git</a></code>
 
 
 Once this is done, a folder named AirBnB_clone-master is created, you have to go inside it, using de command cd on your terminal.
