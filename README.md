@@ -1,21 +1,25 @@
 <h1>AirBnB_clone</h1>
 
-<p>Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.</p>
+<p>
+Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+</p>
 
 <p>The goal of the project is to deploy on our own server a simple copy of the AirBnB website.</p>
 
 <h2>Description of the project</h2>
-We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at Holberton.
+We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at ALX.
 
 This project will be a complete a full web application composed by:
-
+<ul>
 A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging).
 A website (the front-end) that shows the final product to everybody: static and dynamic.
 A database or files that store data (data = objects).
 An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).
-The firs part of the whole project is: AirBnB clone - The console
+</ul>
+<br>
+The first part of the whole project is: <b>AirBnB clone - The console</b>
 
-AirBnB clone - The console
+<h2>AirBnB clone - The console</h2>
 The console This is the first part of this project, it represents the data model.
 
 The purpose of this model is to:
