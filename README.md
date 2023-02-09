@@ -1,10 +1,10 @@
-AirBnB_clone
+<h1>AirBnB_clone</h1>
 
-Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.
+<p>Airbnb. is an online marketplace for arranging or offering lodging, primarily homestays, or tourism experiences. The company does not own any of the real estate listings, nor does it host events; it acts as a broker, receiving commissions from each booking.</p>
 
-The goal of the project is to deploy on our own server a simple copy of the AirBnB website.
+<p>The goal of the project is to deploy on our own server a simple copy of the AirBnB website.</p>
 
-Description of the project
+<h2>Description of the project</h2>
 We don’t implement all the features, only some of them to cover all fundamental concepts of the higher level programming track at Holberton.
 
 This project will be a complete a full web application composed by:
