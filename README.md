@@ -34,7 +34,7 @@ The purpose of this model is to:
 First of all, to use our application you have to clone our repository using the command on your terminal:
 
 
-<pre class="notranslate"><code>git clone <a>https://github.com/1cloudio/AirBnB_clone.git</a></code>
+<pre class="notranslate"><code>git clone <a>https://github.com/1cloudio/AirBnB_clone.git</a></code></pre>
 
 
 Once this is done, a folder named AirBnB_clone-master is created, you have to go inside it, using de command cd on your terminal.
