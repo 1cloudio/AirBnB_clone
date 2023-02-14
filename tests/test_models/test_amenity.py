@@ -1,16 +1,19 @@
 #!/usr/bin/python3
-"""Defines unittests for models/amenity.py.
-Unittest classes:
-    TestAmenity_instantiation
-    TestAmenity_save
-    TestAmenity_to_dict
-"""
-import os
-import models
-import unittest
+''' module for amenity tests '''
+from unittest import TestCase
+import json
+import re
+from uuid import UUID, uuid4
 from datetime import datetime
 from time import sleep
+
+from models.base_model import BaseModel
 from models.amenity import Amenity
 
 
-class TestAmenity_instantiation(unittest.TestCase):
+class TestAmenity(TestCase):
+    ''' tests Amenity class '''
+    def test_9(self):
+        ''' task 9 tests '''
+        self.assertTrue(issubclass(Amenity, BaseModel))
+        self.assertEqual(Amenity.name, '')
